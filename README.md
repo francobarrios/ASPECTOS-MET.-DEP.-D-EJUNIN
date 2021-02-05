@@ -1,5 +1,4 @@
 # ASPECTOS METEOROLOGICOS DEL DEPARTAMENTO DE JUNIN
-SUBIR ARCHIVOS 
 
 ###  1. PRIMERO INSTALAMOS LOS PAQEUTES QUE UTILIZAREMOS
 
@@ -93,7 +92,8 @@ area_ee <- sf_as_ee(area_sf)
 area_ee
 
 ### 14. EXTRAYENDO DATOS DE GOOGLE EARTH CON RGEE 
-## PRECIPITACIONES  DE UN AÑO
+
+### PRECIPITACIONES DE UN AÑO
 
 mapview(list(pp_area, junin_dem))
 mapview(pp_area)
@@ -107,7 +107,7 @@ pp_stack <- ee_as_raster(imag  = ee_pp,
 pp_area <- pp_stack[[5]]
 plot(pp_area)
 
-## PRESION  (Pa)
+### PRESION (Pa)
 
 presion_area <- pp_stack[[6]]
 plot(presion_area)
