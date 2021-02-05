@@ -57,11 +57,11 @@
 
         mapview(junin)
         
-![WhatsApp Image 2021-02-05 at 6 03 44 PM (1)](https://user-images.githubusercontent.com/78610845/107098575-857e1c80-67dd-11eb-9912-a94f12e824e2.jpeg)
+![WhatsApp Image 2021-02-05 at 6 03 44 PM (2)](https://user-images.githubusercontent.com/78610845/107098673-c8d88b00-67dd-11eb-92e8-2ba813b3defd.jpeg)
 
         mapview(demperu)
         
-![WhatsApp Image 2021-02-05 at 6 03 44 PM (2)](https://user-images.githubusercontent.com/78610845/107098673-c8d88b00-67dd-11eb-92e8-2ba813b3defd.jpeg)
+![WhatsApp Image 2021-02-05 at 6 03 44 PM (1)](https://user-images.githubusercontent.com/78610845/107098575-857e1c80-67dd-11eb-9912-a94f12e824e2.jpeg)
 
         library(plainview)
         library(rgdal)
