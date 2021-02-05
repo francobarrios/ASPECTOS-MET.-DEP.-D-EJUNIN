@@ -46,6 +46,7 @@
 
         demperu<-raster("C:/data/demperu.tiff")
         plot(demperu)
+![WhatsApp Image 2021-02-05 at 6 03 44 PM](https://user-images.githubusercontent.com/78610845/107098285-db05f980-67dc-11eb-8d98-818bdcc35b71.jpeg)
 
 ### 7. FILTRAR LO DATOS SOLO DE JUNIIN
 
