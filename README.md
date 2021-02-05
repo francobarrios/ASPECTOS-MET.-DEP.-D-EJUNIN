@@ -92,14 +92,22 @@
 ### 12.  CONOCIENDO EL AREA RELATIVA DE JUNIN
 
         area <- mapview(junin_dem) %>% editMap()
+        
+![WhatsApp Image 2021-02-05 at 12 19 53 PM](https://user-images.githubusercontent.com/78610845/107100150-8b75fc80-67e1-11eb-861c-7779a5711316.jpeg)        
+        
         area_sf <- area$all
         plot(area_sf)
+        
+![WhatsApp Image 2021-02-05 at 12 19 53 PM (1)](https://user-images.githubusercontent.com/78610845/107100206-ab0d2500-67e1-11eb-8005-d4eaa37008ad.jpeg)        
+        
         mapview(list(junin_dem, area_sf))
 
 ### 13. sf -> ee
 
         area_ee <- sf_as_ee(area_sf)
         area_ee
+        
+![WhatsApp Image 2021-02-05 at 12 19 53 PM (2)](https://user-images.githubusercontent.com/78610845/107100239-bf512200-67e1-11eb-814e-1015aa3dc148.jpeg)
 
 ### 14. EXTRAYENDO DATOS DE GOOGLE EARTH CON RGEE 
 
@@ -107,7 +115,12 @@
 
         mapview(list(pp_area, junin_dem))
         mapview(pp_area)
+        
+ ![WhatsApp Image 2021-02-05 at 12 19 53 PM (3)](https://user-images.githubusercontent.com/78610845/107100275-dc85f080-67e1-11eb-8244-e70138222119.jpeg)       
+        
         mapview(junin_dem
+
+![WhatsApp Image 2021-02-05 at 12 19 53 PM (4)](https://user-images.githubusercontent.com/78610845/107100305-f1628400-67e1-11eb-978f-dd176074445b.jpeg)
 
         ee_pp <- ee$ImageCollection("ECMWF/ERA5/MONTHLY")$
           filterDate("2018-01-01", "2019-01-01")$
