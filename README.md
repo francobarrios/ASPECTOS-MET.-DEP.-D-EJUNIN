@@ -56,21 +56,32 @@
 ### 8. VISUALIZAR EL MAPA DE JUNIN
 
         mapview(junin)
+        
+![WhatsApp Image 2021-02-05 at 6 03 44 PM (1)](https://user-images.githubusercontent.com/78610845/107098575-857e1c80-67dd-11eb-9912-a94f12e824e2.jpeg)
+
         mapview(demperu)
+        
+![WhatsApp Image 2021-02-05 at 6 03 44 PM (2)](https://user-images.githubusercontent.com/78610845/107098673-c8d88b00-67dd-11eb-92e8-2ba813b3defd.jpeg)
+
         library(plainview)
         library(rgdal)
         mapview(list(demperu, junin))
 
 ### 9. CREAR UNA MASCARA
 
-        sp_junin <- as(junin, "Spatial")
+        sp_junin <- as(junin, "Spatial"
 
 ### 10. HACEMOS UN CORTE EN LA PROVINCIA DE JUNIN Y VISUALIZAMOS
 
         junin_c<- crop(demperu, sp_junin)        
         plot(junin_c)
+        
+![WhatsApp Image 2021-02-05 at 6 03 44 PM (3)](https://user-images.githubusercontent.com/78610845/107098729-f4f40c00-67dd-11eb-8e76-d865ea0b7e37.jpeg)
+
         junin_dem <- mask(junin_c, sp_junin)
         plot(junin_dem)
+![WhatsApp Image 2021-02-05 at 6 03 44 PM (4)](https://user-images.githubusercontent.com/78610845/107098820-2a005e80-67de-11eb-942f-897fa96db36a.jpeg)
+
 
 ### 11. CONOCIENDO LA ALTITUD MEDIA
 
