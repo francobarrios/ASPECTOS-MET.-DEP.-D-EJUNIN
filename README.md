@@ -1,7 +1,7 @@
 # ASPECTOS-MET.-DEP.-D-EJUNIN
 SUBIR ARCHIVOS 
 
-##FRANCO 
+###  1. FRANCO 
 
 inst
 install.packages ("geojsonio")
