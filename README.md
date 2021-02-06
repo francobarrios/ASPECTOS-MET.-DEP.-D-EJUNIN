@@ -195,8 +195,13 @@
                                        region = area_ee$geometry())
           albedo_area <- albedo_stack[[1]]
           plot(albedo_area)
+          
+![albedo](https://user-images.githubusercontent.com/78610845/107101448-5b305d00-67e5-11eb-965b-18de490238dd.png)
+
           mapview(list(albedo_area, junin_dem))
           mapview(albedo_area)
+          
+![mapview albedo](https://user-images.githubusercontent.com/78610845/107101501-8c109200-67e5-11eb-92b1-b8e1674c713d.png)
 
 ### 21. AÑADIENDO COLUMNA DE ALBEDO DE LOS PUNTOS SELECCIONADOS
 
@@ -246,3 +251,6 @@
           ggtitle("Precipitación de junin")+
           xlab("Fecha")+
           ylab("Precipitación (mm)")
+          
+![precipitacion de junin (1)](https://user-images.githubusercontent.com/78610845/107101544-b2cec880-67e5-11eb-9cfb-4e85aaf67753.png)
+
