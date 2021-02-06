@@ -139,11 +139,18 @@
 
         puntos <- mapview(junin_dem) %>% 
           editMap()
+
         puntos_sf <- puntos$all
         puntos_sf
         plot(junin_dem,
              main = "junin")
+             
+![WhatsApp Image 2021-02-05 at 12 19 53 PM (5)](https://user-images.githubusercontent.com/78610845/107100932-c1b47b80-67e3-11eb-87b8-f18111bdf427.jpeg)
+
         plot(puntos_sf, add = T)
+     
+![WhatsApp Image 2021-02-05 at 12 19 53 PM (6)](https://user-images.githubusercontent.com/78610845/107101056-17892380-67e4-11eb-922a-d6f7a176de4e.jpeg)
+
 
 ### 16.AGREGANDO UNA COLUMAN DE PRECIPITACION DE LOS PUNTOS SELECCIONADOS
 
